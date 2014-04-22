@@ -1,0 +1,94 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+/*------header1-------*/
+.header1{
+    width: 100%;
+    margin-top: 1em;
+    border-top: 2em solid #1A1A1A;
+    border-bottom: 2em solid #1A1A1A;
+    overflow: hidden;
+}
+
+.header1 .cont_h{
+    border-top: 0.5em solid #8CC63F;
+    border-bottom: 0.5em solid #8CC63F;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.header1 .first_t{
+    font-family: Lucida Bright;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: right;
+    width: 40%;
+    float: right;
+}
+
+.header1 .first_t span{
+    font-size: 0.5em;
+    margin-right: 1.5em;
+}
+
+.header1 .f_logo {
+    float: left;
+    width: 50%;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.header1 .f_logo .logo{
+    width: 300px;
+}
+/*------------nav-----------*/
+#nav_rs .div_rs{
+    width: 210px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+#nav_rs .div_rs .item_f,
+.item_t, .item_y{
+    margin: 0.5em;
+    width: 50px;
+}
+
+/*---------header2--------*/
+#sec1 .ft .header2 h2{
+    font-family: Lucida Bright;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-bottom: -0.5em;
+}
+
+#sec1 .ft .header2{
+    width: 100%;
+    background-color: #1A1A1A;
+    border-bottom: 1em solid #808080;
+    padding: 0.6em;
+    margin-top: 2em;
+}
+/*--------article1-------*/
+#sec1 .ft .contenido{
+    background-color: #BADD8C;
+    color: black;
+    font-family: Arial;
+    margin: 2em;
+    padding: 1.5em;
+}
+
+#sec1 .ft .contenido strong{
+     color: black;
+    font-family: Arial;
+}
+
