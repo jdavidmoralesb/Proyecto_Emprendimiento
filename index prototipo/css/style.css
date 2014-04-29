@@ -7,88 +7,91 @@
 body{
     background-color: black;
 }
-/*------header1-------*/
-.header1{
+
+/*-------------------------header1----------------*/
+#header1{
     width: 100%;
-    margin-top: 1em;
-    border-top: 2em solid #1A1A1A;
-    border-bottom: 2em solid #1A1A1A;
-    overflow: hidden;
+    border-top: 1em solid #1A1A1A;
+    border-bottom: 1.5em solid #1A1A1A;
+    margin-top: 10px;
 }
 
-.header1 .cont_h{
-    border-top: 0.5em solid #8CC63F;
-    border-bottom: 0.5em solid #8CC63F;
+#header1 .f_logo{
+    width: 95%;
+    border-top: 0.4em solid #8CC63F;
+    border-bottom: 0.4em solid #8CC63F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header1 .f_logo img{
     width: 90%;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
+    padding: 1em 0.3em 0.3em 0.8em; 
 }
 
-.header1 .first_t{
-    font-family: Lucida Bright;
-    font-weight: bold;
-    font-size: 4em;
-    text-align: right;
-    width: 40%;
-    float: right;
+/*---------------------nav principal----------------*/
+#nav_mp{
+    width: 100%;
+} 
+
+#nav_mp .f_rsc{
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 2px;
 }
 
-.header1 .first_t span{
-    font-size: 0.5em;
-    margin-right: 1.5em;
+#nav_mp .f_rsc .div_rsc{
+    width: 185px;
+    margin: auto; 
 }
 
-.header1 .f_logo {
-    float: left;
-    width: 50%;
-    margin-top: 0.5em;
-    margin-left: 1em;
+#nav_mp .f_rsc .div_rsc img{
+    width: 40px;
+    margin: 0.1em;
 }
 
-.header1 .f_logo .logo{
-    width: 300px;
-}
-/*------------nav-----------*/
-#nav_rs .div_rs{
-    width: 210px;
-    margin: auto;
-    margin-top: 2em;
+/*--------------------section1 aticle1--------------------*/
+#sec1 .art1 .div_prod{
+    background-color: #1A1A1A;
+    border-bottom: 0.3em solid white;
 }
 
-#nav_rs .div_rs .item_f,
-.item_t, .item_y{
-    margin: 0.5em;
-    width: 50px;
-}
-
-/*---------header2--------*/
-#sec1 .ft .header2 h2{
-    font-family: Lucida Bright;
+#sec1 .art1 h2{
+    font-family: Myriad Pro;
     font-weight: bold;
     font-size: 1.5em;
-    margin-left: 1em;
-    margin-bottom: -0.5em;
+    margin-left: 10%; 
+    margin-bottom: -3px;  
 }
 
-#sec1 .ft .header2{
+/*------------------imagenes de productos------------------------*/
+#sec1 .art1 .f_pro{
+    width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#sec1 .art1 .f_pro .div_h0{
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#sec1 .art1 .f_pro .div_h0 img{
     width: 100%;
-    background-color: #1A1A1A;
-    border-bottom: 1em solid #808080;
-    padding: 0.6em;
-    margin-top: 2em;
-}
-/*--------article1-------*/
-#sec1 .ft .contenido{
-    background-color: #BADD8C;
-    color: black;
-    font-family: Arial;
-    margin: 2em;
-    padding: 1.5em;
+    border: 0.3em solid #8CC63F;
+    border-radius: 20px;
 }
 
-#sec1 .ft .contenido strong{
-     color: black;
-    font-family: Arial;
+#sec1 .art1 .f_pro img{
+    border: 0.3em solid #8CC63F;
+    border-radius: 20px;
+    width:25%;
+    padding: 1em;
+    margin: 5px 0 0 2em;
 }
 
