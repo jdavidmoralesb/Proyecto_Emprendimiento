@@ -1,0 +1,945 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*-------------------------header1----------------*/
+#header1{
+    width: 100%;
+    border-top: 1em solid #1A1A1A;
+    border-bottom: 1.5em solid #1A1A1A;
+    margin-top: 10px;
+}
+
+#header1 .f_logo{
+    width: 95%;
+    border-top: 0.4em solid #8CC63F;
+    border-bottom: 0.4em solid #8CC63F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header1 .f_logo img{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+/*---------------------nav principal----------------*/
+#nav_mp{
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+} 
+
+#nav_mp .f_rsc{
+    width: 140px;
+    margin: auto;
+    padding-top: 2px;
+}
+
+#nav_mp .f_rsc  img{
+    width: 40px;
+    margin: 0.1em;
+}
+
+/*--------------------section1 aticle1--------------------*/
+#sec1 .art1{
+    width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#sec1 .div_prod{
+    background-color: #1A1A1A;
+    border-bottom: 0.3em solid white;
+}
+
+#sec1  h2{
+    color: white;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 10%; 
+    margin-bottom: -3px;  
+}
+
+/*------------------imagenes de productos------------------------*/
+#sec1 .art1 .f_pro{
+   width: 50%;
+    margin: auto;
+    margin-top: 10px;
+     border: 0.3em solid #8CC63F;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+#sec1 .art1 .f_pro .helmet0{
+    width: 100%;
+}
+
+#sec1 .art1 .f_pro2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#sec1 .art1 .f_pro2 img{
+    width: 35%;
+    border: 0.3em solid #8CC63F;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+#sec1 .art1 .f_pro2 .helmet1, .helmet2{
+    margin-top: 10px;
+}
+
+#sec1 .art1 .f_pro2 .helmet5, .helmet6{
+    margin-bottom: 10px;
+}
+
+/*--------------------------------footer----------------------------*/
+footer{
+    background-color: #cccccc;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+footer p{
+    color: black;
+    font-size: 1em;
+    font-family: Myriad Pro;
+    padding: 0.5em;
+}
+
+footer .sp{
+    background-color: #1a1a1a ;
+    color: white;
+    font-size: 0.9em;
+}
+
+/*----------------------------separador y nav pro------------------*/
+.s, .nav_pro{
+    background-color: #1A1A1A ;
+    border-bottom: 5px solid #8CC63F;
+    border-top: 5px solid #8CC63F;
+    color: #1A1A1A;
+}
+
+.s .f_f{
+    width: 50%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 5px 0 5px;
+    margin: auto;
+}
+
+.nav_pro .f_np{
+   width: 46px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.nav_pro .f_np img{
+   width: 45px;
+    margin: 0.1em; 
+}
+
+/*-----------------------imagenes sections------------------*/
+#iron .a_h .f_h .h_i,
+#helmet1 .a_h .f_h .h1,
+#helmet2 .a_h .f_h .h2,
+#helmet3 .a_h .f_h .h3,
+#helmet4 .a_h .f_h .h4,
+#helmet5 .a_h .f_h .h5,
+#helmet6 .a_h .f_h .h6{
+    border: 0.3em solid #8CC63F;
+    border-radius: 20px;
+    padding: 1em;
+    width: 80%;
+}
+
+/*--------------------helmet0----------------------*/
+#iron .a_h{
+     width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#iron .a_h .f_h{
+    margin: auto;
+    margin-top: 10px; 
+    width: 60%;
+}
+
+#iron .a_h .div_t h3{
+    font-family: Myriad Pro;
+}
+
+#iron .a_h .div_t strong, p{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#iron .a_h .div_t{
+    background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*--------------------helmet1----------------------*/
+#helmet1 .a_h{
+     width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#helmet1 .a_h .f_h{
+    margin: auto;
+    margin-top: 10px; 
+    width: 60%;
+}
+
+#helmet1 .a_h .div_t h3{
+    font-family: Myriad Pro;
+}
+
+#helmet1 .a_h .div_t strong, p{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#helmet1 .a_h .div_t{
+     background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*--------------------helmet2----------------------*/
+#helmet2 .a_h{
+     width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#helmet2 .a_h .f_h{
+    margin: auto;
+    margin-top: 10px; 
+    width: 60%;
+}
+
+#helmet2 .a_h .div_t h3{
+    font-family: Myriad Pro;
+}
+
+#helmet2 .a_h .div_t strong, p{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#helmet2 .a_h .div_t{
+     background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*--------------------helmet3----------------------*/
+#helmet3 .a_h{
+     width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#helmet3 .a_h .f_h{
+    margin: auto;
+    margin-top: 10px; 
+    width: 60%;
+}
+
+#helmet3 .a_h .div_t h3{
+    font-family: Myriad Pro;
+}
+
+#helmet3 .a_h .div_t strong, p{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#helmet3 .a_h .div_t{
+     background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*--------------------helmet4----------------------*/
+#helmet4 .a_h{
+     width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#helmet4 .a_h .f_h{
+    margin: auto;
+    margin-top: 10px; 
+    width: 60%;
+}
+
+#helmet4 .a_h .div_t h3{
+    font-family: Myriad Pro;
+}
+
+#helmet4 .a_h .div_t strong, p{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#helmet4 .a_h .div_t{
+     background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*--------------------helmet5----------------------*/
+#helmet5 .a_h{
+     width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#helmet5 .a_h .f_h{
+    margin: auto;
+    margin-top: 10px; 
+    width: 60%;
+}
+
+#helmet5 .a_h .div_t h3{
+    font-family: Myriad Pro;
+}
+
+#helmet5 .a_h .div_t strong, p{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#helmet5 .a_h .div_t{
+     background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*--------------------helmet6----------------------*/
+#helmet6 .a_h{
+     width: 95%;
+    border: 0.2em dashed white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0.2em;
+}
+
+#helmet6 .a_h .f_h{
+    margin: auto;
+    margin-top: 10px; 
+    width: 60%;
+}
+
+#helmet6 .a_h .div_t h3{
+    font-family: Myriad Pro;
+}
+
+#helmet6 .a_h .div_t strong, p{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#helmet6 .a_h .div_t{
+     background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+/*--------********************media queries********************--------------*/
+
+/******--------- x320 ---------********/
+@media screen and (max-width: 320px){
+   body{
+    width: 100%;
+   }
+    
+    #sec1  h2{
+        font-size: 1.5em;
+    }
+    
+   #sec1 .art1 .f_pro,
+   #sec1 .art1 .f_pro2 img{
+    border: 2px solid #8CC63F;
+    border-radius: 15px;
+    width: 30%;
+   }
+    
+    #sec1 .art1 .f_pro2{
+        margin-left: 20%;
+    }
+    
+    #iron .a_h,
+    #helmet1 .a_h,
+    #helmet2 .a_h,
+    #helmet3 .a_h,
+    #helmet4 .a_h,
+    #helmet5 .a_h,
+    #helmet6 .a_h{
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #iron .a_h .f_h .h_i,
+    #helmet1 .a_h .f_h .h1,
+    #helmet2 .a_h .f_h .h2,
+    #helmet3 .a_h .f_h .h3,
+    #helmet4 .a_h .f_h .h4,
+    #helmet5 .a_h .f_h .h5,
+    #helmet6 .a_h .f_h .h6{
+        border: 2px solid #8CC63F;
+    }
+    
+    #iron .a_h .div_t{
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    footer .f_f{
+        width: 25%;
+    }
+}
+
+/******--------- x321 & x480 ---------********/
+@media screen and (min-width: 321px) and (max-width: 480px){
+    body{
+        width: 100%;
+   }
+   
+     #header1 .f_logo{
+        width: 85%;
+   }
+
+   #header1 .f_logo img{
+        width: 85%;
+        margin-left: 10%;
+   }
+
+    #sec1  h2{
+        font-size: 1.7em;
+    }
+    
+    #sec1 .art1{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #sec1 .art1 .f_pro,
+    #sec1 .art1 .f_pro2 img{
+        width: 30%;
+        border-radius: 15px;
+        border: 2.5px solid #8CC63F;
+   }
+    
+     #sec1 .art1 .f_pro2{
+        margin-left: 20%;
+    }
+
+    .s{
+        
+    }
+
+     .s .f_f{
+        width: 25%;
+    }
+
+
+    #iron .a_h,
+    #helmet1 .a_h,
+    #helmet2 .a_h,
+    #helmet3 .a_h,
+    #helmet4 .a_h,
+    #helmet5 .a_h,
+    #helmet6 .a_h{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #iron .a_h .f_h .h_i,
+    #helmet1 .a_h .f_h .h1,
+    #helmet2 .a_h .f_h .h2,
+    #helmet3 .a_h .f_h .h3,
+    #helmet4 .a_h .f_h .h4,
+    #helmet5 .a_h .f_h .h5,
+    #helmet6 .a_h .f_h .h6{
+        border: 2.5px solid #8CC63F;
+    }
+
+    #iron .a_h .div_t{
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/******--------- x481 & x767 ---------********/
+@media screen and (min-width: 481px) and (max-width: 767px){
+     body{
+        width: 100%;
+        
+   }
+
+    #header1 .f_logo{
+        width: 80%;
+   }
+
+   #header1 .f_logo img{
+        width: 80%;
+        margin-left: 10%;
+   }
+    
+    #sec1  h2{
+        font-size: 1.9em;
+    }
+    
+    #sec1 .art1{
+        width: 91%;
+        margin: auto;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+    
+    #sec1 .art1 .f_pro{
+        width: 25%;
+        border: 2.5px solid #8CC63F;
+        float: left;
+        margin-top: 20px;
+        margin-left: 10%
+   }
+    
+     #sec1 .art1 .f_pro2{
+         width: 45%;
+         margin: auto;
+         float: right; 
+         margin-right: 6%;        
+     }
+    
+    #sec1 .art1 .f_pro2 img{
+         width: 30%;
+        border: 2.5px solid #8CC63F;
+        padding: 1em;
+    }
+
+    .s{
+        
+    }
+
+     .s .f_f{
+        width: 25%;
+    }
+     
+    #iron .a_h .f_h,
+    #helmet1 .a_h .f_h,
+    #helmet2 .a_h .f_h,
+    #helmet3 .a_h .f_h,
+    #helmet4 .a_h .f_h,
+    #helmet5 .a_h .f_h,
+    #helmet6 .a_h .f_h{
+        width: 40%;
+        float: left;
+        margin-left: 3%;
+        margin-top: 30px;
+        
+    }
+
+    #iron .a_h,
+    #helmet1 .a_h,
+    #helmet2 .a_h,
+    #helmet3 .a_h,
+    #helmet4 .a_h,
+    #helmet5 .a_h,
+    #helmet6 .a_h{
+        width: 85%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+
+    #iron .a_h .f_h .h_i,
+    #helmet1 .a_h .f_h .h1,
+    #helmet2 .a_h .f_h .h2,
+    #helmet3 .a_h .f_h .h3,
+    #helmet4 .a_h .f_h .h4,
+    #helmet5 .a_h .f_h .h5,
+    #helmet6 .a_h .f_h .h6{
+        border: 3px solid #8CC63F;
+    }
+
+    #iron .a_h .div_t,
+    #helmet1 .a_h .div_t,
+    #helmet2 .a_h .div_t,
+    #helmet3 .a_h .div_t,
+    #helmet4 .a_h .div_t,
+    #helmet5 .a_h .div_t,
+    #helmet6 .a_h .div_t{
+        float: right;
+        width: 45%;
+    }
+
+    .nav_pro{
+        clear: both;
+    }
+}
+
+/******--------- x767 & x1024 ---------********/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        width: 100%;
+   }
+
+   #header1 .f_logo{
+        width: 80%;
+   }
+
+   #header1 .f_logo img{
+        width: 80%;
+        margin-left: 10%;
+   }
+    
+    #sec1  h2{
+        font-size: 2em;
+    }
+    
+    #sec1 .art1{
+        width: 78%;
+        margin: auto;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+    
+    #sec1 .art1 .f_pro{
+        width: 25%;
+        border: 3px solid #8CC63F;
+        float: left;
+        margin-top: 20px;
+        margin-left: 10%
+   }
+    
+     #sec1 .art1 .f_pro2{
+         width: 40%;
+         margin: auto;
+         float: right; 
+         margin-right: 10%;        
+     }
+    
+    #sec1 .art1 .f_pro2 img{
+         width: 30%;
+        border: 3px solid #8CC63F;
+        padding: 1em;
+        margin: 0.2em;
+    }
+    
+    #sec1 .art1 .f_pro2 .h6{
+        margin-top: 0;
+    }
+
+    footer{
+        clear: both;
+        font-size: 1.2em;
+    }
+
+    .s{
+        
+    }
+
+     .s .f_f{
+        width: 15%;
+    }
+
+    #iron .a_h .f_h,
+    #helmet1 .a_h .f_h,
+    #helmet2 .a_h .f_h,
+    #helmet3 .a_h .f_h,
+    #helmet4 .a_h .f_h,
+    #helmet5 .a_h .f_h,
+    #helmet6 .a_h .f_h{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        margin-top: 40px;
+        
+    }
+
+    #iron .a_h,
+    #helmet1 .a_h,
+    #helmet2 .a_h,
+    #helmet3 .a_h,
+    #helmet4 .a_h,
+    #helmet5 .a_h,
+    #helmet6 .a_h{
+        width: 78%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #iron .a_h .f_h .h_i,
+    #helmet1 .a_h .f_h .h1,
+    #helmet2 .a_h .f_h .h2,
+    #helmet3 .a_h .f_h .h3,
+    #helmet4 .a_h .f_h .h4,
+    #helmet5 .a_h .f_h .h5,
+    #helmet6 .a_h .f_h .h6{
+        border: 3px solid #8CC63F;
+    }
+
+    #iron .a_h,
+    #helmet1 .a_h,
+    #helmet2 .a_h,
+    #helmet3 .a_h,
+    #helmet4 .a_h,
+    #helmet5 .a_h,
+    #helmet6 .a_h{
+        overflow: hidden;
+    }
+
+    #iron .a_h .div_t,
+    #helmet1 .a_h .div_t,
+    #helmet2 .a_h .div_t,
+    #helmet3 .a_h .div_t,
+    #helmet4 .a_h .div_t,
+    #helmet5 .a_h .div_t,
+    #helmet6 .a_h .div_t{
+        float: right;
+        width: 45%;
+        font-size: 1.2em;
+    }
+
+    .nav_pro{
+        clear: both;
+    }
+
+}
+
+/******--------- x767 & x1024 ---------********/
+@media screen and (min-width: 1025px){
+     body{
+        width: 100%;        
+   }
+
+   #header1 .f_logo{
+        width: 80%;
+   }
+    
+   #header1 .f_logo img{
+        width: 80%;
+        margin-left: 10%;
+   }
+
+   #nav_mp{
+        width: 80%;
+        margin: auto;
+   }
+
+   #sec1 .div_prod{
+        width: 80%;
+        margin: auto;
+   }
+
+    #sec1  h2{
+        font-size: 2.5em;
+    }
+    
+    #sec1 .art1{
+        width: 70%;
+        margin: auto;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+    
+    #sec1 .art1 .f_pro{
+        width: 20%;
+        border: 3px solid #8CC63F;
+        float: left;
+        margin-top: 50px;
+        margin-left: 10%
+   }
+    
+     #sec1 .art1 .f_pro2{
+         width: 55%;
+         margin: auto;
+         float: right;         
+     }
+    
+    #sec1 .art1 .f_pro2 img{
+         width: 20%;
+        border: 3px solid #8CC63F;
+        padding: 1em;
+        margin: 0.2em;
+    }
+    
+    #sec1 .art1 .f_pro2 .h6{
+        margin-top: 0;
+    }
+
+    footer{
+        width: 85%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        clear: both;
+        font-size: 1.2em;
+    }
+
+    footer .sp{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .s{
+        
+    }
+
+     .s .f_f{
+        width: 10%;
+    }
+
+    #iron .a_h .f_h,
+    #helmet1 .a_h .f_h,
+    #helmet2 .a_h .f_h,
+    #helmet3 .a_h .f_h,
+    #helmet4 .a_h .f_h,
+    #helmet5 .a_h .f_h,
+    #helmet6 .a_h .f_h{
+        width: 40%;
+        float: left;
+        margin-left: 8%;
+        margin-top: 70px;
+        
+    }
+
+    #iron .a_h,
+    #helmet1 .a_h,
+    #helmet2 .a_h,
+    #helmet3 .a_h,
+    #helmet4 .a_h,
+    #helmet5 .a_h,
+    #helmet6 .a_h{
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #iron .a_h .f_h .h_i,
+    #helmet1 .a_h .f_h .h1,
+    #helmet2 .a_h .f_h .h2,
+    #helmet3 .a_h .f_h .h3,
+    #helmet4 .a_h .f_h .h4,
+    #helmet5 .a_h .f_h .h5,
+    #helmet6 .a_h .f_h .h6{
+        border: 3px solid #8CC63F;
+    }
+
+    #iron .a_h,
+    #helmet1 .a_h,
+    #helmet2 .a_h,
+    #helmet3 .a_h,
+    #helmet4 .a_h,
+    #helmet5 .a_h,
+    #helmet6 .a_h{
+        overflow: hidden;
+    }
+
+    #iron .a_h .div_t,
+    #helmet1 .a_h .div_t,
+    #helmet2 .a_h .div_t,
+    #helmet3 .a_h .div_t,
+    #helmet4 .a_h .div_t,
+    #helmet5 .a_h .div_t,
+    #helmet6 .a_h .div_t{
+        float: right;
+        margin-right: 5%;
+        width: 35%;
+        font-size: 1.2em;
+    }
+
+    .nav_pro{
+        width: 60%;
+        margin: auto;
+        clear: both;
+    }
+}
